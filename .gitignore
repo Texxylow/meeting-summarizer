@@ -1,0 +1,17 @@
+# Python
+backend/venv/
+**/pycache/
+*.pyc
+backend/.env
+
+# Audio uploads (don't commit user files)
+backend/storage/uploads/*
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/.env*
+
+# OS files
+.DS_Store
+Thumbs.db
