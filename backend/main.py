@@ -18,6 +18,7 @@ app.add_middleware(
 )
 
 UPLOAD_DIR = "storage/uploads"
+os.makedirs(UPLOAD_DIR, exist_ok=True)
 
 
 @app.get("/")
